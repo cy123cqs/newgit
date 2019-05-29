@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购买</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrap bc">
+        <div class="title tc pr top">
+            <span class="back-btn"></span>我的闲置小屋
+            <div class="nav-btn">
+                <ul class="pa">
+                     <li><a href="index.html">首页</a></li>
+                    <li><a href="products.html">所有闲置</a></li>
+                    <li><a href="music.html">生活推荐</a></li>
+                    <li><a href="advice.html">写下建议</a></li>
+                    <li><a href="about.html">关于</a></li>
+                </ul>
+            </div>
+        </div>
+        <form class="book" method="post"action="">
+            <input type="hidden"class="countNum" value="10"/>
+            <div class="info mt10">
+                <h4><lable>物品名称：</lable><span>待定</span></h4>
+                <h4><lable>物品单价：</lable><span>1.0 RMB</span></h4>
+                <h4 class="num"><lable class="fl">物品数量：</lable><span class="subtract">-</span><input value="1" name="count" class="count" readonly = "true"/><span class="add">+</span></h4>
+            </div>
+            <p>物品<input type="text" name="name" class="name" value="输入您所选物品" /></p>
+            <p>姓名<input type="text" name="name" class="name" value="输入您的姓名" /></p>
+            <p>手机<input type="text" name="mobile" class="mobile" value="输入您的手机号" /></p>
+            <p>地址<input type="text" name="name" class="name" value="输入您的地址" /></p>
+            <a class="title submit-btn mt10 tc">提交订单</a>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
